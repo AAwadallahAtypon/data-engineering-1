@@ -17,7 +17,7 @@ $ docker-compose up
 | Input | /home/csv_data |
 | Output |  /home/json_data |
 
-After deploying the docker compose file 
+After deploying the docker compose file, I've created fake Data using Faker 
 which has a Jypter Notebook and Nifi 
 
 ![image](https://user-images.githubusercontent.com/47817848/118247662-1a16ab80-b4ac-11eb-99f4-76cc96f5eb3d.png)
