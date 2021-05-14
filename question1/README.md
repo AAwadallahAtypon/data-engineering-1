@@ -14,8 +14,8 @@ $ docker-compose up
 
 | Directory | Path |
 | ------ | ------ |
-| Input dir | /home/csv_data |
-| Output Dir |  /home/json_data |
+| Input | /home/csv_data |
+| Output |  /home/json_data |
 
 After deploying the docker compose file 
 which has a Jypter Notebook and Nifi 
