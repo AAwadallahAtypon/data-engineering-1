@@ -1,0 +1,24 @@
+[2021-05-17 07:55:33,039] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: etl_postgresql2mongo.read_from_MongoDB 2021-05-17T07:50:00+00:00 [queued]>
+[2021-05-17 07:55:33,057] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: etl_postgresql2mongo.read_from_MongoDB 2021-05-17T07:50:00+00:00 [queued]>
+[2021-05-17 07:55:33,057] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-17 07:55:33,057] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-05-17 07:55:33,057] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-17 07:55:33,068] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): read_from_MongoDB> on 2021-05-17T07:50:00+00:00
+[2021-05-17 07:55:33,075] {standard_task_runner.py:52} INFO - Started process 390 to run task
+[2021-05-17 07:55:33,080] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'etl_postgresql2mongo', 'read_from_MongoDB', '2021-05-17T07:50:00+00:00', '--job-id', '49', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/csv_postgres_2_mongo.py', '--cfg-path', '/tmp/tmp3rqcjvnd', '--error-file', '/tmp/tmpdr_52iwr']
+[2021-05-17 07:55:33,081] {standard_task_runner.py:77} INFO - Job 49: Subtask read_from_MongoDB
+[2021-05-17 07:55:33,132] {logging_mixin.py:104} INFO - Running <TaskInstance: etl_postgresql2mongo.read_from_MongoDB 2021-05-17T07:50:00+00:00 [running]> on host d0d96188f4f7
+[2021-05-17 07:55:33,172] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=etl_postgresql2mongo
+AIRFLOW_CTX_TASK_ID=read_from_MongoDB
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-17T07:50:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-17T07:50:00+00:00
+[2021-05-17 07:55:33,175] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/pymongo/topology.py:162 UserWarning: MongoClient opened before fork. Create MongoClient only after forking. See PyMongo's documentation for details: https://pymongo.readthedocs.io/en/stable/faq.html#is-pymongo-fork-safe
+[2021-05-17 07:55:33,189] {logging_mixin.py:104} INFO - number of documents in mongoDB =  800
+[2021-05-17 07:55:33,190] {python.py:118} INFO - Done. Returned value was: None
+[2021-05-17 07:55:33,200] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=etl_postgresql2mongo, task_id=read_from_MongoDB, execution_date=20210517T075000, start_date=20210517T075533, end_date=20210517T075533
+[2021-05-17 07:55:33,241] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-05-17 07:55:33,291] {local_task_job.py:146} INFO - Task exited with return code 0

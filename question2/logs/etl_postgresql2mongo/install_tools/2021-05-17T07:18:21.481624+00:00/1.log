@@ -1,0 +1,22 @@
+[2021-05-17 07:19:31,246] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: etl_postgresql2mongo.install_tools 2021-05-17T07:18:21.481624+00:00 [queued]>
+[2021-05-17 07:19:31,268] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: etl_postgresql2mongo.install_tools 2021-05-17T07:18:21.481624+00:00 [queued]>
+[2021-05-17 07:19:31,268] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-17 07:19:31,268] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-05-17 07:19:31,269] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-17 07:19:31,293] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): install_tools> on 2021-05-17T07:18:21.481624+00:00
+[2021-05-17 07:19:31,300] {standard_task_runner.py:52} INFO - Started process 64 to run task
+[2021-05-17 07:19:31,308] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'etl_postgresql2mongo', 'install_tools', '2021-05-17T07:18:21.481624+00:00', '--job-id', '16', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/csv_postgres_2_mongo.py', '--cfg-path', '/tmp/tmpt7ygf0xl', '--error-file', '/tmp/tmp0agf5n6k']
+[2021-05-17 07:19:31,308] {standard_task_runner.py:77} INFO - Job 16: Subtask install_tools
+[2021-05-17 07:19:31,377] {logging_mixin.py:104} INFO - Running <TaskInstance: etl_postgresql2mongo.install_tools 2021-05-17T07:18:21.481624+00:00 [running]> on host d0d96188f4f7
+[2021-05-17 07:19:31,443] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=etl_postgresql2mongo
+AIRFLOW_CTX_TASK_ID=install_tools
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-17T07:18:21.481624+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-05-17T07:18:21.481624+00:00
+[2021-05-17 07:19:46,525] {python.py:118} INFO - Done. Returned value was: None
+[2021-05-17 07:19:46,538] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=etl_postgresql2mongo, task_id=install_tools, execution_date=20210517T071821, start_date=20210517T071931, end_date=20210517T071946
+[2021-05-17 07:19:46,575] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-17 07:19:46,599] {local_task_job.py:146} INFO - Task exited with return code 0

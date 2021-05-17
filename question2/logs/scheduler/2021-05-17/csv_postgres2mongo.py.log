@@ -1,0 +1,144 @@
+[2021-05-17 06:39:15,233] {scheduler_job.py:182} INFO - Started process (PID=3094) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:39:15,234] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:39:15,234] {logging_mixin.py:104} INFO - [2021-05-17 06:39:15,234] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:39:15,237] {logging_mixin.py:104} INFO - [2021-05-17 06:39:15,235] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres2mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres2mongo.py", line 81
+    read_table_as_DF = PythonOperator(
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+[2021-05-17 06:39:15,237] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:39:15,252] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.022 seconds
+[2021-05-17 06:39:45,320] {scheduler_job.py:182} INFO - Started process (PID=3121) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:39:45,321] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:39:45,321] {logging_mixin.py:104} INFO - [2021-05-17 06:39:45,321] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:39:45,323] {logging_mixin.py:104} INFO - [2021-05-17 06:39:45,323] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres2mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres2mongo.py", line 81
+    read_table_as_DF = PythonOperator(
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+[2021-05-17 06:39:45,324] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:39:45,342] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.026 seconds
+[2021-05-17 06:40:46,478] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:40:46,481] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:40:46,484] {logging_mixin.py:104} INFO - [2021-05-17 06:40:46,484] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:40:46,489] {logging_mixin.py:104} INFO - [2021-05-17 06:40:46,487] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres2mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres2mongo.py", line 81
+    read_table_as_DF = PythonOperator(
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+[2021-05-17 06:40:46,490] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:40:46,525] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.053 seconds
+[2021-05-17 06:41:16,641] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:41:16,643] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:41:16,644] {logging_mixin.py:104} INFO - [2021-05-17 06:41:16,644] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:41:16,648] {logging_mixin.py:104} INFO - [2021-05-17 06:41:16,647] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres2mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres2mongo.py", line 81
+    read_table_as_DF = PythonOperator(
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+[2021-05-17 06:41:16,649] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:41:16,687] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.053 seconds
+[2021-05-17 06:41:46,760] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:41:46,761] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:41:46,762] {logging_mixin.py:104} INFO - [2021-05-17 06:41:46,762] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:41:46,764] {logging_mixin.py:104} INFO - [2021-05-17 06:41:46,763] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres2mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres2mongo.py", line 81
+    read_table_as_DF = PythonOperator(
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+[2021-05-17 06:41:46,765] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:41:46,785] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.029 seconds
+[2021-05-17 06:42:16,884] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:42:16,887] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:42:16,888] {logging_mixin.py:104} INFO - [2021-05-17 06:42:16,888] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:42:16,894] {logging_mixin.py:104} INFO - [2021-05-17 06:42:16,892] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres2mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres2mongo.py", line 81
+    read_table_as_DF = PythonOperator(
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+[2021-05-17 06:42:16,895] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:42:16,928] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.052 seconds
+[2021-05-17 06:42:47,012] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:42:47,015] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:42:47,017] {logging_mixin.py:104} INFO - [2021-05-17 06:42:47,016] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:42:47,022] {logging_mixin.py:104} INFO - [2021-05-17 06:42:47,020] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres2mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres2mongo.py", line 81
+    read_table_as_DF = PythonOperator(
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+[2021-05-17 06:42:47,023] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:42:47,045] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.044 seconds
+[2021-05-17 06:43:17,115] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:43:17,118] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:43:17,119] {logging_mixin.py:104} INFO - [2021-05-17 06:43:17,118] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:43:17,119] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:43:17,120] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.010 seconds
+[2021-05-17 06:43:47,210] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:43:47,211] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:43:47,211] {logging_mixin.py:104} INFO - [2021-05-17 06:43:47,211] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:43:47,212] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:43:47,212] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.007 seconds
+[2021-05-17 06:44:17,327] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:44:17,328] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:44:17,329] {logging_mixin.py:104} INFO - [2021-05-17 06:44:17,329] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:44:17,329] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:44:17,329] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.005 seconds
+[2021-05-17 06:44:47,444] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:44:47,446] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:44:47,447] {logging_mixin.py:104} INFO - [2021-05-17 06:44:47,447] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:44:47,447] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:44:47,448] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.010 seconds
+[2021-05-17 06:45:17,554] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:45:17,555] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres2mongo.py for tasks to queue
+[2021-05-17 06:45:17,556] {logging_mixin.py:104} INFO - [2021-05-17 06:45:17,556] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:45:17,556] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres2mongo.py
+[2021-05-17 06:45:17,556] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres2mongo.py took 0.005 seconds

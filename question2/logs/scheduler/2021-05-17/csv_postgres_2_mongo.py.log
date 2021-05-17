@@ -1,0 +1,1100 @@
+[2021-05-17 06:47:48,693] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:47:48,695] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:47:48,695] {logging_mixin.py:104} INFO - [2021-05-17 06:47:48,695] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:47:50,445] {logging_mixin.py:104} INFO - [2021-05-17 06:47:50,444] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:47:50,446] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:47:50,469] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 1.780 seconds
+[2021-05-17 06:48:20,556] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:48:20,557] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:48:20,558] {logging_mixin.py:104} INFO - [2021-05-17 06:48:20,558] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:48:21,122] {logging_mixin.py:104} INFO - [2021-05-17 06:48:21,121] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:48:21,123] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:48:21,154] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.602 seconds
+[2021-05-17 06:48:51,238] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:48:51,240] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:48:51,240] {logging_mixin.py:104} INFO - [2021-05-17 06:48:51,240] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:48:51,458] {logging_mixin.py:104} INFO - [2021-05-17 06:48:51,458] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:48:51,458] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:48:51,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.239 seconds
+[2021-05-17 06:49:21,538] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:49:21,539] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:49:21,540] {logging_mixin.py:104} INFO - [2021-05-17 06:49:21,540] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:49:21,771] {logging_mixin.py:104} INFO - [2021-05-17 06:49:21,770] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:49:21,771] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:49:21,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.252 seconds
+[2021-05-17 06:49:51,852] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:49:51,854] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:49:51,854] {logging_mixin.py:104} INFO - [2021-05-17 06:49:51,854] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:49:52,058] {logging_mixin.py:104} INFO - [2021-05-17 06:49:52,058] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:49:52,058] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:49:52,073] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.224 seconds
+[2021-05-17 06:53:46,881] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:53:46,882] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:53:46,883] {logging_mixin.py:104} INFO - [2021-05-17 06:53:46,883] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:53:47,163] {logging_mixin.py:104} INFO - [2021-05-17 06:53:47,163] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:53:47,164] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:53:47,178] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.300 seconds
+[2021-05-17 06:54:17,238] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:54:17,239] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:54:17,240] {logging_mixin.py:104} INFO - [2021-05-17 06:54:17,239] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:54:17,473] {logging_mixin.py:104} INFO - [2021-05-17 06:54:17,473] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:54:17,473] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:54:17,487] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.252 seconds
+[2021-05-17 06:54:47,558] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:54:47,559] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:54:47,560] {logging_mixin.py:104} INFO - [2021-05-17 06:54:47,560] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:54:47,762] {logging_mixin.py:104} INFO - [2021-05-17 06:54:47,762] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:54:47,762] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:54:47,775] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.220 seconds
+[2021-05-17 06:55:17,843] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:55:17,844] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:55:17,845] {logging_mixin.py:104} INFO - [2021-05-17 06:55:17,844] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:55:18,058] {logging_mixin.py:104} INFO - [2021-05-17 06:55:18,057] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:55:18,058] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:55:18,071] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.232 seconds
+[2021-05-17 06:55:48,145] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:55:48,146] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:55:48,146] {logging_mixin.py:104} INFO - [2021-05-17 06:55:48,146] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:55:48,349] {logging_mixin.py:104} INFO - [2021-05-17 06:55:48,349] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:55:48,350] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:55:48,364] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.223 seconds
+[2021-05-17 06:56:18,438] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:56:18,439] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:56:18,440] {logging_mixin.py:104} INFO - [2021-05-17 06:56:18,440] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:56:18,667] {logging_mixin.py:104} INFO - [2021-05-17 06:56:18,666] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:56:18,667] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:56:18,681] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.247 seconds
+[2021-05-17 06:56:48,752] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:56:48,755] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:56:48,756] {logging_mixin.py:104} INFO - [2021-05-17 06:56:48,756] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:56:48,967] {logging_mixin.py:104} INFO - [2021-05-17 06:56:48,966] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:56:48,967] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:56:48,980] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.233 seconds
+[2021-05-17 06:57:19,044] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:57:19,045] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:57:19,046] {logging_mixin.py:104} INFO - [2021-05-17 06:57:19,046] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:57:19,361] {logging_mixin.py:104} INFO - [2021-05-17 06:57:19,361] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:57:19,362] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:57:19,383] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.341 seconds
+[2021-05-17 06:57:49,460] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:57:49,463] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:57:49,465] {logging_mixin.py:104} INFO - [2021-05-17 06:57:49,464] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:57:49,691] {logging_mixin.py:104} INFO - [2021-05-17 06:57:49,691] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:57:49,691] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:57:49,706] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.255 seconds
+[2021-05-17 06:58:19,784] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:58:19,787] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:58:19,789] {logging_mixin.py:104} INFO - [2021-05-17 06:58:19,789] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:58:20,022] {logging_mixin.py:104} INFO - [2021-05-17 06:58:20,022] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:58:20,023] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:58:20,039] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.263 seconds
+[2021-05-17 06:58:50,112] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:58:50,116] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:58:50,118] {logging_mixin.py:104} INFO - [2021-05-17 06:58:50,117] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:58:50,371] {logging_mixin.py:104} INFO - [2021-05-17 06:58:50,371] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:58:50,371] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:58:50,385] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.282 seconds
+[2021-05-17 06:59:20,472] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:59:20,475] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:59:20,477] {logging_mixin.py:104} INFO - [2021-05-17 06:59:20,477] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:59:20,729] {logging_mixin.py:104} INFO - [2021-05-17 06:59:20,729] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:59:20,730] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:59:20,745] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.282 seconds
+[2021-05-17 06:59:50,824] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:59:50,826] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 06:59:50,828] {logging_mixin.py:104} INFO - [2021-05-17 06:59:50,828] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:59:51,066] {logging_mixin.py:104} INFO - [2021-05-17 06:59:51,065] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 06:59:51,067] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 06:59:51,108] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.292 seconds
+[2021-05-17 07:00:21,169] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:00:21,170] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:00:21,170] {logging_mixin.py:104} INFO - [2021-05-17 07:00:21,170] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:00:21,398] {logging_mixin.py:104} INFO - [2021-05-17 07:00:21,398] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 07:00:21,399] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:00:21,414] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.248 seconds
+[2021-05-17 07:00:51,474] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:00:51,475] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:00:51,476] {logging_mixin.py:104} INFO - [2021-05-17 07:00:51,476] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:00:51,679] {logging_mixin.py:104} INFO - [2021-05-17 07:00:51,678] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 07:00:51,679] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:00:51,694] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.223 seconds
+[2021-05-17 07:01:21,758] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:01:21,759] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:01:21,759] {logging_mixin.py:104} INFO - [2021-05-17 07:01:21,759] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:01:21,978] {logging_mixin.py:104} INFO - [2021-05-17 07:01:21,977] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 15, in <module>
+    client = MongoClient('mongo:27017',
+NameError: name 'MongoClient' is not defined
+[2021-05-17 07:01:21,978] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:01:21,992] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.237 seconds
+[2021-05-17 07:02:21,233] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:02:21,235] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:02:21,236] {logging_mixin.py:104} INFO - [2021-05-17 07:02:21,236] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:02:21,251] {logging_mixin.py:104} INFO - [2021-05-17 07:02:21,250] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:02:21,252] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:02:21,279] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.051 seconds
+[2021-05-17 07:02:51,371] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:02:51,371] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:02:51,372] {logging_mixin.py:104} INFO - [2021-05-17 07:02:51,372] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:02:51,377] {logging_mixin.py:104} INFO - [2021-05-17 07:02:51,377] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:02:51,378] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:02:51,392] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.024 seconds
+[2021-05-17 07:03:21,482] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:03:21,483] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:03:21,484] {logging_mixin.py:104} INFO - [2021-05-17 07:03:21,484] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:03:21,494] {logging_mixin.py:104} INFO - [2021-05-17 07:03:21,492] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:03:21,494] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:03:21,515] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.038 seconds
+[2021-05-17 07:03:51,590] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:03:51,591] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:03:51,592] {logging_mixin.py:104} INFO - [2021-05-17 07:03:51,592] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:03:51,599] {logging_mixin.py:104} INFO - [2021-05-17 07:03:51,599] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:03:51,600] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:03:51,615] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.028 seconds
+[2021-05-17 07:04:21,716] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:04:21,719] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:04:21,721] {logging_mixin.py:104} INFO - [2021-05-17 07:04:21,721] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:04:21,741] {logging_mixin.py:104} INFO - [2021-05-17 07:04:21,740] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:04:21,741] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:04:21,760] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.052 seconds
+[2021-05-17 07:04:51,833] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:04:51,835] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:04:51,836] {logging_mixin.py:104} INFO - [2021-05-17 07:04:51,836] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:04:51,847] {logging_mixin.py:104} INFO - [2021-05-17 07:04:51,846] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:04:51,847] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:04:51,869] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.044 seconds
+[2021-05-17 07:05:21,937] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:05:21,941] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:05:21,942] {logging_mixin.py:104} INFO - [2021-05-17 07:05:21,942] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:05:21,960] {logging_mixin.py:104} INFO - [2021-05-17 07:05:21,958] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:05:21,960] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:05:21,980] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.050 seconds
+[2021-05-17 07:05:52,053] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:05:52,054] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:05:52,055] {logging_mixin.py:104} INFO - [2021-05-17 07:05:52,055] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:05:52,064] {logging_mixin.py:104} INFO - [2021-05-17 07:05:52,063] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:05:52,065] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:05:52,085] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.036 seconds
+[2021-05-17 07:06:22,172] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:06:22,172] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:06:22,173] {logging_mixin.py:104} INFO - [2021-05-17 07:06:22,173] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:06:22,180] {logging_mixin.py:104} INFO - [2021-05-17 07:06:22,179] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:06:22,180] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:06:22,196] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.027 seconds
+[2021-05-17 07:06:52,297] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:06:52,298] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:06:52,298] {logging_mixin.py:104} INFO - [2021-05-17 07:06:52,298] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:06:52,306] {logging_mixin.py:104} INFO - [2021-05-17 07:06:52,305] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:06:52,306] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:06:52,323] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.029 seconds
+[2021-05-17 07:07:22,442] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:07:22,443] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:07:22,444] {logging_mixin.py:104} INFO - [2021-05-17 07:07:22,444] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:07:22,450] {logging_mixin.py:104} INFO - [2021-05-17 07:07:22,449] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:07:22,450] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:07:22,464] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.025 seconds
+[2021-05-17 07:07:52,550] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:07:52,551] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:07:52,552] {logging_mixin.py:104} INFO - [2021-05-17 07:07:52,552] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:07:52,562] {logging_mixin.py:104} INFO - [2021-05-17 07:07:52,561] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:07:52,563] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:07:52,585] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.039 seconds
+[2021-05-17 07:08:22,651] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:08:22,651] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:08:22,652] {logging_mixin.py:104} INFO - [2021-05-17 07:08:22,652] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:08:22,658] {logging_mixin.py:104} INFO - [2021-05-17 07:08:22,657] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:08:22,658] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:08:22,673] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.024 seconds
+[2021-05-17 07:08:52,766] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:08:52,768] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:08:52,768] {logging_mixin.py:104} INFO - [2021-05-17 07:08:52,768] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:08:52,778] {logging_mixin.py:104} INFO - [2021-05-17 07:08:52,777] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:08:52,779] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:08:52,796] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.035 seconds
+[2021-05-17 07:09:22,875] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:09:22,876] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:09:22,877] {logging_mixin.py:104} INFO - [2021-05-17 07:09:22,877] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:09:22,888] {logging_mixin.py:104} INFO - [2021-05-17 07:09:22,887] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:09:22,889] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:09:22,918] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.047 seconds
+[2021-05-17 07:09:52,973] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:09:52,974] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:09:52,975] {logging_mixin.py:104} INFO - [2021-05-17 07:09:52,975] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:09:52,982] {logging_mixin.py:104} INFO - [2021-05-17 07:09:52,982] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:09:52,983] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:09:53,003] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.033 seconds
+[2021-05-17 07:10:23,085] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:10:23,086] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:10:23,087] {logging_mixin.py:104} INFO - [2021-05-17 07:10:23,087] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:10:23,097] {logging_mixin.py:104} INFO - [2021-05-17 07:10:23,096] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:10:23,098] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:10:23,119] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.039 seconds
+[2021-05-17 07:10:53,198] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:10:53,199] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:10:53,201] {logging_mixin.py:104} INFO - [2021-05-17 07:10:53,200] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:10:53,215] {logging_mixin.py:104} INFO - [2021-05-17 07:10:53,214] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:10:53,216] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:10:53,236] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.044 seconds
+[2021-05-17 07:11:23,292] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:11:23,293] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:11:23,293] {logging_mixin.py:104} INFO - [2021-05-17 07:11:23,293] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:11:23,299] {logging_mixin.py:104} INFO - [2021-05-17 07:11:23,298] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:11:23,300] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:11:23,315] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.026 seconds
+[2021-05-17 07:11:53,392] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:11:53,393] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:11:53,394] {logging_mixin.py:104} INFO - [2021-05-17 07:11:53,394] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:11:53,399] {logging_mixin.py:104} INFO - [2021-05-17 07:11:53,399] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:11:53,400] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:11:53,416] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.027 seconds
+[2021-05-17 07:12:23,565] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:12:23,567] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:12:23,569] {logging_mixin.py:104} INFO - [2021-05-17 07:12:23,568] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:12:23,581] {logging_mixin.py:104} INFO - [2021-05-17 07:12:23,581] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:12:23,582] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:12:23,599] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.045 seconds
+[2021-05-17 07:12:53,666] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:12:53,667] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:12:53,668] {logging_mixin.py:104} INFO - [2021-05-17 07:12:53,668] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:12:53,677] {logging_mixin.py:104} INFO - [2021-05-17 07:12:53,676] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:12:53,677] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:12:53,699] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.037 seconds
+[2021-05-17 07:13:23,793] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:13:23,796] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:13:23,798] {logging_mixin.py:104} INFO - [2021-05-17 07:13:23,798] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:13:23,811] {logging_mixin.py:104} INFO - [2021-05-17 07:13:23,810] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:13:23,812] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:13:23,833] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.050 seconds
+[2021-05-17 07:13:53,911] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:13:53,912] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:13:53,913] {logging_mixin.py:104} INFO - [2021-05-17 07:13:53,913] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:13:53,920] {logging_mixin.py:104} INFO - [2021-05-17 07:13:53,920] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:13:53,921] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:13:53,940] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.032 seconds
+[2021-05-17 07:14:24,038] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:14:24,039] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:14:24,040] {logging_mixin.py:104} INFO - [2021-05-17 07:14:24,040] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:14:24,048] {logging_mixin.py:104} INFO - [2021-05-17 07:14:24,047] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:14:24,048] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:14:24,069] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.035 seconds
+[2021-05-17 07:14:54,155] {scheduler_job.py:182} INFO - Started process (PID=51) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:14:54,158] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:14:54,159] {logging_mixin.py:104} INFO - [2021-05-17 07:14:54,159] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:14:54,176] {logging_mixin.py:104} INFO - [2021-05-17 07:14:54,175] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/csv_postgres_2_mongo.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/csv_postgres_2_mongo.py", line 6, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-05-17 07:14:54,177] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:14:54,195] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 0.049 seconds
+[2021-05-17 07:17:15,735] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:17:15,736] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:17:15,737] {logging_mixin.py:104} INFO - [2021-05-17 07:17:15,737] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:17:36,319] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:17:36,352] {logging_mixin.py:104} INFO - [2021-05-17 07:17:36,352] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:17:36,366] {logging_mixin.py:104} INFO - [2021-05-17 07:17:36,366] {dag.py:1837} INFO - Creating ORM DAG for etl_postgresql2mongo
+[2021-05-17 07:17:36,399] {logging_mixin.py:104} INFO - [2021-05-17 07:17:36,398] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:10:00+00:00
+[2021-05-17 07:17:36,419] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 20.688 seconds
+[2021-05-17 07:18:06,524] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:18:06,527] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:18:06,528] {logging_mixin.py:104} INFO - [2021-05-17 07:18:06,528] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:18:13,297] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:18:13,314] {logging_mixin.py:104} INFO - [2021-05-17 07:18:13,314] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:18:13,340] {logging_mixin.py:104} INFO - [2021-05-17 07:18:13,340] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:10:00+00:00
+[2021-05-17 07:18:13,345] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.831 seconds
+[2021-05-17 07:18:43,437] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:18:43,440] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:18:43,442] {logging_mixin.py:104} INFO - [2021-05-17 07:18:43,442] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:18:50,480] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:18:50,496] {logging_mixin.py:104} INFO - [2021-05-17 07:18:50,495] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:18:50,522] {logging_mixin.py:104} INFO - [2021-05-17 07:18:50,522] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:10:00+00:00
+[2021-05-17 07:18:50,532] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 7.104 seconds
+[2021-05-17 07:19:20,595] {scheduler_job.py:182} INFO - Started process (PID=61) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:19:20,595] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:19:20,596] {logging_mixin.py:104} INFO - [2021-05-17 07:19:20,596] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:19:35,325] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:19:35,358] {logging_mixin.py:104} INFO - [2021-05-17 07:19:35,357] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:19:35,401] {logging_mixin.py:104} INFO - [2021-05-17 07:19:35,401] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:15:00+00:00
+[2021-05-17 07:19:35,410] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 14.819 seconds
+[2021-05-17 07:20:05,494] {scheduler_job.py:182} INFO - Started process (PID=71) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:20:05,495] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:20:05,495] {logging_mixin.py:104} INFO - [2021-05-17 07:20:05,495] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:20:16,819] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:20:16,849] {logging_mixin.py:104} INFO - [2021-05-17 07:20:16,849] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:20:16,879] {logging_mixin.py:104} INFO - [2021-05-17 07:20:16,878] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:20:00+00:00
+[2021-05-17 07:20:16,886] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 11.396 seconds
+[2021-05-17 07:20:46,948] {scheduler_job.py:182} INFO - Started process (PID=81) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:20:46,949] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:20:46,949] {logging_mixin.py:104} INFO - [2021-05-17 07:20:46,949] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:20:53,321] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:20:53,338] {logging_mixin.py:104} INFO - [2021-05-17 07:20:53,338] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:20:53,360] {logging_mixin.py:104} INFO - [2021-05-17 07:20:53,360] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:20:00+00:00
+[2021-05-17 07:20:53,365] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.421 seconds
+[2021-05-17 07:21:23,446] {scheduler_job.py:182} INFO - Started process (PID=91) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:21:23,447] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:21:23,447] {logging_mixin.py:104} INFO - [2021-05-17 07:21:23,447] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:21:30,246] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:21:30,262] {logging_mixin.py:104} INFO - [2021-05-17 07:21:30,262] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:21:30,283] {logging_mixin.py:104} INFO - [2021-05-17 07:21:30,283] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:20:00+00:00
+[2021-05-17 07:21:30,291] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.849 seconds
+[2021-05-17 07:22:43,861] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:22:43,863] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:22:43,863] {logging_mixin.py:104} INFO - [2021-05-17 07:22:43,863] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:23:01,434] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:23:01,477] {logging_mixin.py:104} INFO - [2021-05-17 07:23:01,476] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:23:01,530] {logging_mixin.py:104} INFO - [2021-05-17 07:23:01,529] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:20:00+00:00
+[2021-05-17 07:23:01,547] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 17.690 seconds
+[2021-05-17 07:23:31,635] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:23:31,636] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:23:31,636] {logging_mixin.py:104} INFO - [2021-05-17 07:23:31,636] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:23:38,127] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:23:38,143] {logging_mixin.py:104} INFO - [2021-05-17 07:23:38,143] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:23:38,169] {logging_mixin.py:104} INFO - [2021-05-17 07:23:38,169] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:20:00+00:00
+[2021-05-17 07:23:38,178] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.546 seconds
+[2021-05-17 07:24:08,258] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:24:08,261] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:24:08,263] {logging_mixin.py:104} INFO - [2021-05-17 07:24:08,263] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:24:14,523] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:24:14,540] {logging_mixin.py:104} INFO - [2021-05-17 07:24:14,540] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:24:14,563] {logging_mixin.py:104} INFO - [2021-05-17 07:24:14,562] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:20:00+00:00
+[2021-05-17 07:24:14,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.321 seconds
+[2021-05-17 07:24:44,641] {scheduler_job.py:182} INFO - Started process (PID=56) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:24:44,642] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:24:44,642] {logging_mixin.py:104} INFO - [2021-05-17 07:24:44,642] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:24:50,998] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:24:51,012] {logging_mixin.py:104} INFO - [2021-05-17 07:24:51,012] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:24:51,035] {logging_mixin.py:104} INFO - [2021-05-17 07:24:51,035] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:20:00+00:00
+[2021-05-17 07:24:51,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.405 seconds
+[2021-05-17 07:25:21,107] {scheduler_job.py:182} INFO - Started process (PID=66) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:25:21,108] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:25:21,109] {logging_mixin.py:104} INFO - [2021-05-17 07:25:21,109] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:25:33,723] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:25:33,740] {logging_mixin.py:104} INFO - [2021-05-17 07:25:33,740] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:25:33,767] {logging_mixin.py:104} INFO - [2021-05-17 07:25:33,767] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:25:00+00:00
+[2021-05-17 07:25:33,773] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 12.671 seconds
+[2021-05-17 07:26:03,842] {scheduler_job.py:182} INFO - Started process (PID=76) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:26:03,844] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:26:03,844] {logging_mixin.py:104} INFO - [2021-05-17 07:26:03,844] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:26:10,272] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:26:10,288] {logging_mixin.py:104} INFO - [2021-05-17 07:26:10,288] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:26:10,311] {logging_mixin.py:104} INFO - [2021-05-17 07:26:10,311] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:25:00+00:00
+[2021-05-17 07:26:10,319] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.481 seconds
+[2021-05-17 07:26:40,418] {scheduler_job.py:182} INFO - Started process (PID=86) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:26:40,421] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:26:40,423] {logging_mixin.py:104} INFO - [2021-05-17 07:26:40,422] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:26:46,807] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:26:46,824] {logging_mixin.py:104} INFO - [2021-05-17 07:26:46,823] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:26:46,846] {logging_mixin.py:104} INFO - [2021-05-17 07:26:46,846] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:25:00+00:00
+[2021-05-17 07:26:46,853] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.444 seconds
+[2021-05-17 07:27:16,935] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:27:16,937] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:27:16,938] {logging_mixin.py:104} INFO - [2021-05-17 07:27:16,938] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:27:23,226] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:27:23,243] {logging_mixin.py:104} INFO - [2021-05-17 07:27:23,243] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:27:23,267] {logging_mixin.py:104} INFO - [2021-05-17 07:27:23,267] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:25:00+00:00
+[2021-05-17 07:27:23,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.346 seconds
+[2021-05-17 07:27:53,356] {scheduler_job.py:182} INFO - Started process (PID=106) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:27:53,359] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:27:53,361] {logging_mixin.py:104} INFO - [2021-05-17 07:27:53,361] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:28:00,648] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:28:00,662] {logging_mixin.py:104} INFO - [2021-05-17 07:28:00,662] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:28:00,680] {logging_mixin.py:104} INFO - [2021-05-17 07:28:00,680] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:25:00+00:00
+[2021-05-17 07:28:00,689] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 7.341 seconds
+[2021-05-17 07:28:30,758] {scheduler_job.py:182} INFO - Started process (PID=116) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:28:30,759] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:28:30,760] {logging_mixin.py:104} INFO - [2021-05-17 07:28:30,760] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:28:37,080] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:28:37,094] {logging_mixin.py:104} INFO - [2021-05-17 07:28:37,094] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:28:37,112] {logging_mixin.py:104} INFO - [2021-05-17 07:28:37,112] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:25:00+00:00
+[2021-05-17 07:28:37,120] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.365 seconds
+[2021-05-17 07:29:07,198] {scheduler_job.py:182} INFO - Started process (PID=126) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:29:07,199] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:29:07,199] {logging_mixin.py:104} INFO - [2021-05-17 07:29:07,199] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:29:13,438] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:29:13,452] {logging_mixin.py:104} INFO - [2021-05-17 07:29:13,452] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:29:13,471] {logging_mixin.py:104} INFO - [2021-05-17 07:29:13,471] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:25:00+00:00
+[2021-05-17 07:29:13,478] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.283 seconds
+[2021-05-17 07:29:43,551] {scheduler_job.py:182} INFO - Started process (PID=136) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:29:43,552] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:29:43,552] {logging_mixin.py:104} INFO - [2021-05-17 07:29:43,552] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:29:49,703] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:29:49,716] {logging_mixin.py:104} INFO - [2021-05-17 07:29:49,716] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:29:49,734] {logging_mixin.py:104} INFO - [2021-05-17 07:29:49,734] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:25:00+00:00
+[2021-05-17 07:29:49,743] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.196 seconds
+[2021-05-17 07:30:19,790] {scheduler_job.py:182} INFO - Started process (PID=146) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:30:19,791] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:30:19,791] {logging_mixin.py:104} INFO - [2021-05-17 07:30:19,791] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:30:29,591] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:30:29,611] {logging_mixin.py:104} INFO - [2021-05-17 07:30:29,611] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:30:29,642] {logging_mixin.py:104} INFO - [2021-05-17 07:30:29,642] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:30:00+00:00
+[2021-05-17 07:30:29,651] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 9.864 seconds
+[2021-05-17 07:30:59,769] {scheduler_job.py:182} INFO - Started process (PID=156) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:30:59,770] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:30:59,770] {logging_mixin.py:104} INFO - [2021-05-17 07:30:59,770] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:31:06,882] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:31:06,896] {logging_mixin.py:104} INFO - [2021-05-17 07:31:06,896] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:31:06,915] {logging_mixin.py:104} INFO - [2021-05-17 07:31:06,915] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:30:00+00:00
+[2021-05-17 07:31:06,922] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 7.155 seconds
+[2021-05-17 07:31:36,996] {scheduler_job.py:182} INFO - Started process (PID=166) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:31:37,000] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:31:37,002] {logging_mixin.py:104} INFO - [2021-05-17 07:31:37,002] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:31:43,082] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:31:43,096] {logging_mixin.py:104} INFO - [2021-05-17 07:31:43,096] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:31:43,115] {logging_mixin.py:104} INFO - [2021-05-17 07:31:43,115] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:30:00+00:00
+[2021-05-17 07:31:43,125] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.137 seconds
+[2021-05-17 07:32:13,197] {scheduler_job.py:182} INFO - Started process (PID=176) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:32:13,198] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:32:13,199] {logging_mixin.py:104} INFO - [2021-05-17 07:32:13,199] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:32:19,328] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:32:19,342] {logging_mixin.py:104} INFO - [2021-05-17 07:32:19,341] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:32:19,360] {logging_mixin.py:104} INFO - [2021-05-17 07:32:19,360] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:30:00+00:00
+[2021-05-17 07:32:19,370] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.176 seconds
+[2021-05-17 07:32:49,435] {scheduler_job.py:182} INFO - Started process (PID=186) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:32:49,437] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:32:49,437] {logging_mixin.py:104} INFO - [2021-05-17 07:32:49,437] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:32:55,692] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:32:55,706] {logging_mixin.py:104} INFO - [2021-05-17 07:32:55,706] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:32:55,725] {logging_mixin.py:104} INFO - [2021-05-17 07:32:55,725] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:30:00+00:00
+[2021-05-17 07:32:55,735] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.304 seconds
+[2021-05-17 07:33:25,815] {scheduler_job.py:182} INFO - Started process (PID=196) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:33:25,818] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:33:25,819] {logging_mixin.py:104} INFO - [2021-05-17 07:33:25,819] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:33:32,105] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:33:32,122] {logging_mixin.py:104} INFO - [2021-05-17 07:33:32,122] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:33:32,148] {logging_mixin.py:104} INFO - [2021-05-17 07:33:32,148] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:30:00+00:00
+[2021-05-17 07:33:32,155] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.350 seconds
+[2021-05-17 07:34:02,229] {scheduler_job.py:182} INFO - Started process (PID=206) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:34:02,230] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:34:02,230] {logging_mixin.py:104} INFO - [2021-05-17 07:34:02,230] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:34:09,600] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:34:09,620] {logging_mixin.py:104} INFO - [2021-05-17 07:34:09,619] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:34:09,640] {logging_mixin.py:104} INFO - [2021-05-17 07:34:09,640] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:30:00+00:00
+[2021-05-17 07:34:09,647] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 7.422 seconds
+[2021-05-17 07:34:39,726] {scheduler_job.py:182} INFO - Started process (PID=216) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:34:39,727] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:34:39,727] {logging_mixin.py:104} INFO - [2021-05-17 07:34:39,727] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:34:45,916] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:34:45,929] {logging_mixin.py:104} INFO - [2021-05-17 07:34:45,929] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:34:45,950] {logging_mixin.py:104} INFO - [2021-05-17 07:34:45,950] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:30:00+00:00
+[2021-05-17 07:34:45,957] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.234 seconds
+[2021-05-17 07:35:16,013] {scheduler_job.py:182} INFO - Started process (PID=226) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:35:16,013] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:35:16,014] {logging_mixin.py:104} INFO - [2021-05-17 07:35:16,014] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:35:25,642] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:35:25,658] {logging_mixin.py:104} INFO - [2021-05-17 07:35:25,658] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:35:25,681] {logging_mixin.py:104} INFO - [2021-05-17 07:35:25,681] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:35:00+00:00
+[2021-05-17 07:35:25,689] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 9.679 seconds
+[2021-05-17 07:35:55,766] {scheduler_job.py:182} INFO - Started process (PID=236) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:35:55,767] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:35:55,768] {logging_mixin.py:104} INFO - [2021-05-17 07:35:55,768] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:36:01,936] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:36:01,951] {logging_mixin.py:104} INFO - [2021-05-17 07:36:01,950] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:36:01,970] {logging_mixin.py:104} INFO - [2021-05-17 07:36:01,970] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:35:00+00:00
+[2021-05-17 07:36:01,977] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.213 seconds
+[2021-05-17 07:36:32,051] {scheduler_job.py:182} INFO - Started process (PID=246) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:36:32,054] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:36:32,056] {logging_mixin.py:104} INFO - [2021-05-17 07:36:32,055] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:36:38,727] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:36:38,741] {logging_mixin.py:104} INFO - [2021-05-17 07:36:38,741] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:36:38,761] {logging_mixin.py:104} INFO - [2021-05-17 07:36:38,761] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:35:00+00:00
+[2021-05-17 07:36:38,768] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.727 seconds
+[2021-05-17 07:37:08,852] {scheduler_job.py:182} INFO - Started process (PID=256) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:37:08,853] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:37:08,854] {logging_mixin.py:104} INFO - [2021-05-17 07:37:08,854] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:37:15,920] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:37:15,934] {logging_mixin.py:104} INFO - [2021-05-17 07:37:15,934] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:37:15,954] {logging_mixin.py:104} INFO - [2021-05-17 07:37:15,954] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:35:00+00:00
+[2021-05-17 07:37:15,961] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 7.112 seconds
+[2021-05-17 07:37:45,985] {scheduler_job.py:182} INFO - Started process (PID=266) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:37:45,986] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:37:45,986] {logging_mixin.py:104} INFO - [2021-05-17 07:37:45,986] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:37:52,268] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:37:52,283] {logging_mixin.py:104} INFO - [2021-05-17 07:37:52,283] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:37:52,302] {logging_mixin.py:104} INFO - [2021-05-17 07:37:52,301] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:35:00+00:00
+[2021-05-17 07:37:52,308] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.327 seconds
+[2021-05-17 07:38:22,388] {scheduler_job.py:182} INFO - Started process (PID=276) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:38:22,389] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:38:22,390] {logging_mixin.py:104} INFO - [2021-05-17 07:38:22,390] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:38:28,615] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:38:28,630] {logging_mixin.py:104} INFO - [2021-05-17 07:38:28,630] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:38:28,649] {logging_mixin.py:104} INFO - [2021-05-17 07:38:28,649] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:35:00+00:00
+[2021-05-17 07:38:28,659] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.274 seconds
+[2021-05-17 07:38:58,731] {scheduler_job.py:182} INFO - Started process (PID=286) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:38:58,732] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:38:58,732] {logging_mixin.py:104} INFO - [2021-05-17 07:38:58,732] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:39:04,989] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:39:05,004] {logging_mixin.py:104} INFO - [2021-05-17 07:39:05,004] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:39:05,023] {logging_mixin.py:104} INFO - [2021-05-17 07:39:05,023] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:35:00+00:00
+[2021-05-17 07:39:05,031] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.303 seconds
+[2021-05-17 07:39:35,104] {scheduler_job.py:182} INFO - Started process (PID=296) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:39:35,105] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:39:35,106] {logging_mixin.py:104} INFO - [2021-05-17 07:39:35,106] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:39:41,380] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:39:41,394] {logging_mixin.py:104} INFO - [2021-05-17 07:39:41,393] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:39:41,412] {logging_mixin.py:104} INFO - [2021-05-17 07:39:41,412] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:35:00+00:00
+[2021-05-17 07:39:41,419] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.320 seconds
+[2021-05-17 07:40:11,476] {scheduler_job.py:182} INFO - Started process (PID=306) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:40:11,477] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:40:11,477] {logging_mixin.py:104} INFO - [2021-05-17 07:40:11,477] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:40:22,869] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:40:22,888] {logging_mixin.py:104} INFO - [2021-05-17 07:40:22,888] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:40:22,914] {logging_mixin.py:104} INFO - [2021-05-17 07:40:22,914] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:40:00+00:00
+[2021-05-17 07:40:22,925] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 11.452 seconds
+[2021-05-17 07:40:53,010] {scheduler_job.py:182} INFO - Started process (PID=316) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:40:53,013] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:40:53,015] {logging_mixin.py:104} INFO - [2021-05-17 07:40:53,015] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:40:59,205] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:40:59,218] {logging_mixin.py:104} INFO - [2021-05-17 07:40:59,218] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:40:59,237] {logging_mixin.py:104} INFO - [2021-05-17 07:40:59,237] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:40:00+00:00
+[2021-05-17 07:40:59,246] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.244 seconds
+[2021-05-17 07:41:29,314] {scheduler_job.py:182} INFO - Started process (PID=326) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:41:29,315] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:41:29,316] {logging_mixin.py:104} INFO - [2021-05-17 07:41:29,316] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:41:35,460] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:41:35,473] {logging_mixin.py:104} INFO - [2021-05-17 07:41:35,473] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:41:35,491] {logging_mixin.py:104} INFO - [2021-05-17 07:41:35,491] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:40:00+00:00
+[2021-05-17 07:41:35,500] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.190 seconds
+[2021-05-17 07:42:05,572] {scheduler_job.py:182} INFO - Started process (PID=336) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:42:05,573] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:42:05,573] {logging_mixin.py:104} INFO - [2021-05-17 07:42:05,573] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:42:11,660] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:42:11,673] {logging_mixin.py:104} INFO - [2021-05-17 07:42:11,673] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:42:11,691] {logging_mixin.py:104} INFO - [2021-05-17 07:42:11,691] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:40:00+00:00
+[2021-05-17 07:42:11,700] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.131 seconds
+[2021-05-17 07:42:41,765] {scheduler_job.py:182} INFO - Started process (PID=346) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:42:41,766] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:42:41,767] {logging_mixin.py:104} INFO - [2021-05-17 07:42:41,766] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:42:48,591] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:42:48,604] {logging_mixin.py:104} INFO - [2021-05-17 07:42:48,604] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:42:48,622] {logging_mixin.py:104} INFO - [2021-05-17 07:42:48,621] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:40:00+00:00
+[2021-05-17 07:42:48,630] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.869 seconds
+[2021-05-17 07:43:18,718] {scheduler_job.py:182} INFO - Started process (PID=356) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:43:18,719] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:43:18,720] {logging_mixin.py:104} INFO - [2021-05-17 07:43:18,720] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:43:25,525] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:43:25,538] {logging_mixin.py:104} INFO - [2021-05-17 07:43:25,538] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:43:25,556] {logging_mixin.py:104} INFO - [2021-05-17 07:43:25,555] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:40:00+00:00
+[2021-05-17 07:43:25,567] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.851 seconds
+[2021-05-17 07:43:55,658] {scheduler_job.py:182} INFO - Started process (PID=366) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:43:55,659] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:43:55,660] {logging_mixin.py:104} INFO - [2021-05-17 07:43:55,659] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:44:01,910] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:44:01,923] {logging_mixin.py:104} INFO - [2021-05-17 07:44:01,923] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:44:01,944] {logging_mixin.py:104} INFO - [2021-05-17 07:44:01,944] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:40:00+00:00
+[2021-05-17 07:44:01,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.297 seconds
+[2021-05-17 07:44:32,080] {scheduler_job.py:182} INFO - Started process (PID=376) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:44:32,082] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:44:32,084] {logging_mixin.py:104} INFO - [2021-05-17 07:44:32,084] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:44:38,267] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:44:38,281] {logging_mixin.py:104} INFO - [2021-05-17 07:44:38,280] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:44:38,298] {logging_mixin.py:104} INFO - [2021-05-17 07:44:38,298] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:40:00+00:00
+[2021-05-17 07:44:38,305] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.234 seconds
+[2021-05-17 07:45:08,359] {scheduler_job.py:182} INFO - Started process (PID=386) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:45:08,359] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:45:08,360] {logging_mixin.py:104} INFO - [2021-05-17 07:45:08,360] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:45:16,949] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:45:16,964] {logging_mixin.py:104} INFO - [2021-05-17 07:45:16,964] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:45:16,986] {logging_mixin.py:104} INFO - [2021-05-17 07:45:16,986] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:45:00+00:00
+[2021-05-17 07:45:16,997] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 8.641 seconds
+[2021-05-17 07:45:47,084] {scheduler_job.py:182} INFO - Started process (PID=396) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:45:47,085] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:45:47,085] {logging_mixin.py:104} INFO - [2021-05-17 07:45:47,085] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:45:54,016] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:45:54,030] {logging_mixin.py:104} INFO - [2021-05-17 07:45:54,030] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:45:54,048] {logging_mixin.py:104} INFO - [2021-05-17 07:45:54,048] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:45:00+00:00
+[2021-05-17 07:45:54,055] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.974 seconds
+[2021-05-17 07:46:24,133] {scheduler_job.py:182} INFO - Started process (PID=406) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:46:24,134] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:46:24,134] {logging_mixin.py:104} INFO - [2021-05-17 07:46:24,134] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:46:30,667] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:46:30,680] {logging_mixin.py:104} INFO - [2021-05-17 07:46:30,680] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:46:30,698] {logging_mixin.py:104} INFO - [2021-05-17 07:46:30,698] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:45:00+00:00
+[2021-05-17 07:46:30,707] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.576 seconds
+[2021-05-17 07:47:00,772] {scheduler_job.py:182} INFO - Started process (PID=416) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:47:00,773] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:47:00,773] {logging_mixin.py:104} INFO - [2021-05-17 07:47:00,773] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:47:07,027] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:47:07,041] {logging_mixin.py:104} INFO - [2021-05-17 07:47:07,041] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:47:07,059] {logging_mixin.py:104} INFO - [2021-05-17 07:47:07,059] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:45:00+00:00
+[2021-05-17 07:47:07,069] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.300 seconds
+[2021-05-17 07:47:37,137] {scheduler_job.py:182} INFO - Started process (PID=426) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:47:37,138] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:47:37,138] {logging_mixin.py:104} INFO - [2021-05-17 07:47:37,138] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:47:43,259] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:47:43,273] {logging_mixin.py:104} INFO - [2021-05-17 07:47:43,273] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:47:43,291] {logging_mixin.py:104} INFO - [2021-05-17 07:47:43,291] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:45:00+00:00
+[2021-05-17 07:47:43,298] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.164 seconds
+[2021-05-17 07:48:13,369] {scheduler_job.py:182} INFO - Started process (PID=436) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:48:13,370] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:48:13,371] {logging_mixin.py:104} INFO - [2021-05-17 07:48:13,371] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:48:19,589] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:48:19,602] {logging_mixin.py:104} INFO - [2021-05-17 07:48:19,602] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:48:19,620] {logging_mixin.py:104} INFO - [2021-05-17 07:48:19,620] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:45:00+00:00
+[2021-05-17 07:48:19,628] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.263 seconds
+[2021-05-17 07:48:49,711] {scheduler_job.py:182} INFO - Started process (PID=446) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:48:49,714] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:48:49,716] {logging_mixin.py:104} INFO - [2021-05-17 07:48:49,716] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:48:56,186] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:48:56,199] {logging_mixin.py:104} INFO - [2021-05-17 07:48:56,199] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:48:56,217] {logging_mixin.py:104} INFO - [2021-05-17 07:48:56,217] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:45:00+00:00
+[2021-05-17 07:48:56,225] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.522 seconds
+[2021-05-17 07:49:26,305] {scheduler_job.py:182} INFO - Started process (PID=456) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:49:26,305] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:49:26,306] {logging_mixin.py:104} INFO - [2021-05-17 07:49:26,306] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:49:33,423] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:49:33,436] {logging_mixin.py:104} INFO - [2021-05-17 07:49:33,436] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:49:33,454] {logging_mixin.py:104} INFO - [2021-05-17 07:49:33,454] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:45:00+00:00
+[2021-05-17 07:49:33,461] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 7.159 seconds
+[2021-05-17 07:50:03,520] {scheduler_job.py:182} INFO - Started process (PID=466) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:50:03,521] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:50:03,522] {logging_mixin.py:104} INFO - [2021-05-17 07:50:03,522] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:50:10,806] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:50:10,826] {logging_mixin.py:104} INFO - [2021-05-17 07:50:10,826] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:50:10,850] {logging_mixin.py:104} INFO - [2021-05-17 07:50:10,850] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:50:00+00:00
+[2021-05-17 07:50:10,858] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 7.340 seconds
+[2021-05-17 07:50:40,916] {scheduler_job.py:182} INFO - Started process (PID=476) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:50:40,917] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:50:40,918] {logging_mixin.py:104} INFO - [2021-05-17 07:50:40,917] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:50:47,111] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:50:47,125] {logging_mixin.py:104} INFO - [2021-05-17 07:50:47,125] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:50:47,143] {logging_mixin.py:104} INFO - [2021-05-17 07:50:47,142] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:50:00+00:00
+[2021-05-17 07:50:47,151] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.238 seconds
+[2021-05-17 07:51:17,225] {scheduler_job.py:182} INFO - Started process (PID=486) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:51:17,227] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:51:17,227] {logging_mixin.py:104} INFO - [2021-05-17 07:51:17,227] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:51:23,527] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:51:23,544] {logging_mixin.py:104} INFO - [2021-05-17 07:51:23,544] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:51:23,565] {logging_mixin.py:104} INFO - [2021-05-17 07:51:23,564] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:50:00+00:00
+[2021-05-17 07:51:23,572] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.350 seconds
+[2021-05-17 07:51:53,648] {scheduler_job.py:182} INFO - Started process (PID=496) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:51:53,649] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:51:53,649] {logging_mixin.py:104} INFO - [2021-05-17 07:51:53,649] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:52:00,119] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:52:00,132] {logging_mixin.py:104} INFO - [2021-05-17 07:52:00,132] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:52:00,150] {logging_mixin.py:104} INFO - [2021-05-17 07:52:00,150] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:50:00+00:00
+[2021-05-17 07:52:00,157] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.513 seconds
+[2021-05-17 07:52:30,242] {scheduler_job.py:182} INFO - Started process (PID=506) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:52:30,242] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:52:30,243] {logging_mixin.py:104} INFO - [2021-05-17 07:52:30,243] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:52:37,403] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:52:37,415] {logging_mixin.py:104} INFO - [2021-05-17 07:52:37,415] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:52:37,433] {logging_mixin.py:104} INFO - [2021-05-17 07:52:37,433] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:50:00+00:00
+[2021-05-17 07:52:37,439] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 7.200 seconds
+[2021-05-17 07:53:07,511] {scheduler_job.py:182} INFO - Started process (PID=516) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:53:07,512] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:53:07,513] {logging_mixin.py:104} INFO - [2021-05-17 07:53:07,513] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:53:13,699] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:53:13,714] {logging_mixin.py:104} INFO - [2021-05-17 07:53:13,713] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:53:13,740] {logging_mixin.py:104} INFO - [2021-05-17 07:53:13,740] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:50:00+00:00
+[2021-05-17 07:53:13,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.238 seconds
+[2021-05-17 07:53:43,815] {scheduler_job.py:182} INFO - Started process (PID=526) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:53:43,816] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:53:43,816] {logging_mixin.py:104} INFO - [2021-05-17 07:53:43,816] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:53:50,075] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:53:50,088] {logging_mixin.py:104} INFO - [2021-05-17 07:53:50,088] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:53:50,106] {logging_mixin.py:104} INFO - [2021-05-17 07:53:50,106] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:50:00+00:00
+[2021-05-17 07:53:50,113] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.302 seconds
+[2021-05-17 07:54:20,191] {scheduler_job.py:182} INFO - Started process (PID=536) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:54:20,193] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:54:20,194] {logging_mixin.py:104} INFO - [2021-05-17 07:54:20,194] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:54:26,515] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:54:26,529] {logging_mixin.py:104} INFO - [2021-05-17 07:54:26,528] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:54:26,547] {logging_mixin.py:104} INFO - [2021-05-17 07:54:26,547] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:50:00+00:00
+[2021-05-17 07:54:26,554] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.366 seconds
+[2021-05-17 07:54:56,636] {scheduler_job.py:182} INFO - Started process (PID=546) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:54:56,639] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:54:56,641] {logging_mixin.py:104} INFO - [2021-05-17 07:54:56,641] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:55:03,231] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:55:03,246] {logging_mixin.py:104} INFO - [2021-05-17 07:55:03,246] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:55:03,267] {logging_mixin.py:104} INFO - [2021-05-17 07:55:03,266] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:55:00+00:00
+[2021-05-17 07:55:03,274] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.647 seconds
+[2021-05-17 07:55:33,346] {scheduler_job.py:182} INFO - Started process (PID=556) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:55:33,347] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:55:33,347] {logging_mixin.py:104} INFO - [2021-05-17 07:55:33,347] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:55:42,843] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:55:42,855] {logging_mixin.py:104} INFO - [2021-05-17 07:55:42,855] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:55:42,873] {logging_mixin.py:104} INFO - [2021-05-17 07:55:42,873] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:55:00+00:00
+[2021-05-17 07:55:42,882] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 9.539 seconds
+[2021-05-17 07:56:12,959] {scheduler_job.py:182} INFO - Started process (PID=566) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:56:12,960] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:56:12,961] {logging_mixin.py:104} INFO - [2021-05-17 07:56:12,961] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:56:20,257] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:56:20,273] {logging_mixin.py:104} INFO - [2021-05-17 07:56:20,273] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:56:20,297] {logging_mixin.py:104} INFO - [2021-05-17 07:56:20,297] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:55:00+00:00
+[2021-05-17 07:56:20,304] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 7.351 seconds
+[2021-05-17 07:56:50,377] {scheduler_job.py:182} INFO - Started process (PID=576) to work on /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:56:50,378] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/csv_postgres_2_mongo.py for tasks to queue
+[2021-05-17 07:56:50,378] {logging_mixin.py:104} INFO - [2021-05-17 07:56:50,378] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:56:56,778] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_postgresql2mongo']) retrieved from /opt/airflow/dags/csv_postgres_2_mongo.py
+[2021-05-17 07:56:56,793] {logging_mixin.py:104} INFO - [2021-05-17 07:56:56,793] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-05-17 07:56:56,811] {logging_mixin.py:104} INFO - [2021-05-17 07:56:56,811] {dag.py:2273} INFO - Setting next_dagrun for etl_postgresql2mongo to 2021-05-17T07:55:00+00:00
+[2021-05-17 07:56:56,818] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/csv_postgres_2_mongo.py took 6.444 seconds
