@@ -5,7 +5,7 @@ from datetime import datetime
 import subprocess
 from sqlalchemy import create_engine
 import pandas as pd
-import multiprocessing
+
 
 host = "postgres_storage"
 database = "csv_db"
@@ -73,11 +73,22 @@ def _minMax_scale_data(**context):
 
 
 
-def _push_data_to_postgress(**context):
+def _push_data_to_postgress_and_Plot(**context):
     DF_Germany=pd.read_csv('/home/sharedVol/data.csv')
     DF_Germany_3=pd.read_csv('/home/sharedVol/Scaleddata.csv')
     DF_Germany.to_sql('data_without_scaling', engine,if_exists='replace',index=False)
     DF_Germany_3.to_sql('data_with_scaling', engine,if_exists='replace',index=False)
+    
+    import matplotlib.pyplot as plt 
+    import matplotlib
+    font = {'weight' : 'bold',
+            'size'   : 18}
+
+    matplotlib.rc('font', **font)
+    Selec_Columns=['Confirmed','Deaths', 'Recovered', 'Active', 'Incident_Rate','Case_Fatality_Ratio']
+    DF_Germany_3[Selec_Columns].plot(figsize=(20,10))
+    plt.savefig('/home/output/germany_scoring_report.png')
+    DF_Germany_3.to_csv('/home/output/germany_scoring_report.csv')
     
 
 
@@ -124,7 +135,7 @@ with DAG("ETL_JHC", start_date=datetime(2021, 1, 1),
     )
     
     fetchData = PythonOperator(
-        task_id="fetch_data_and_save_it",
+        task_id="fetch_data_and_save_it_to_filesystem",
         python_callable=_fetch_data_as_DF,
         provide_context=True
     )
@@ -136,8 +147,8 @@ with DAG("ETL_JHC", start_date=datetime(2021, 1, 1),
     )
 
     pushDataToPG = PythonOperator(
-        task_id="push_data_to_postgress",
-        python_callable=_push_data_to_postgress,
+        task_id="push_data_to_postgress_and_polt_report",
+        python_callable=_push_data_to_postgress_and_Plot,
         provide_context=True
     )
 
